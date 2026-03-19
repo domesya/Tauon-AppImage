@@ -14,7 +14,7 @@ export DESKTOP=/usr/share/applications/tauonmb.desktop
 export DEPLOY_SYS_PYTHON=1
 
 # Deploy dependencies
-quick-sharun /PATH/TO/BINARY_AND_LIBRARIES_HERE
+quick-sharun /usr/bin/tauonmb /usr/bin/tauon
 
 # Additional changes can be done in between here
 
