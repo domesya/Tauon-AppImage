@@ -26,6 +26,8 @@ quick-sharun \
 	/usr/lib/libgme.so*			\
 	/usr/lib/libwavpack.so*    \
 	/usr/lib/libnotify.so*		\
+	/usr/lib/libopenmpt.so*		\
+	/usr/lib/libvorbisfile.so*	\
 	/usr/lib/libopusfile.so*	\
 	/usr/lib/libsamplerate.so* \
 	/usr/lib/libkissfft-float.so*
