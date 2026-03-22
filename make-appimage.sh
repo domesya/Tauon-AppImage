@@ -12,6 +12,7 @@ export ICON=/usr/share/icons/hicolor/scalable/apps/tauonmb.svg
 export DESKTOP=/usr/share/applications/tauonmb.desktop
 export DEPLOY_SYS_PYTHON=1
 export DEPLOY_PIPEWIRE=1
+export DEPLOY_OPENGL=1
 export DEPLOY_SDL=1
 
 # fix bug making the app assume that it can write to its site-package dir
