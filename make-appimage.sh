@@ -22,6 +22,7 @@ find /usr/lib/python*/site-packages \
 # Deploy dependencies
 quick-sharun \
 	/usr/bin/tauonmb           \
+	/usr/bin/ffmpeg				\
 	/usr/lib/libgtk-3.so*      \
 	/usr/lib/libgme.so*			\
 	/usr/lib/libwavpack.so*    \
