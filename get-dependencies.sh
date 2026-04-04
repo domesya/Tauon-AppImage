@@ -6,11 +6,11 @@ ARCH=$(uname -m)
 
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
-pacman -Syu --noconfirm tauon-music-box pipewire-audio pipewire-jack p7zip unrar opusfile mpg123 flac libvorbis wavpack ffmpeg libgme libnotify python-jxlpy python-pypresence python-tekore python-plexapi python-pychromecast python-tidalapi
+pacman -Syu --noconfirm tauon-music-box pipewire-audio pipewire-jack p7zip unrar opusfile mpg123 flac libvorbis wavpack libgme libnotify python-jxlpy python-pypresence python-tekore python-plexapi python-pychromecast python-tidalapi
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
-get-debloated-pkgs --add-common --prefer-nano
+get-debloated-pkgs --add-common --prefer-nano ffmpeg-mini
 
 # Comment this out if you need an AUR package
 #make-aur-package tauon-music-box-git
